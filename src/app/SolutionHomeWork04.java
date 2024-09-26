@@ -10,8 +10,11 @@ public class SolutionHomeWork04 {
         int prodNumber = 1;
         String product = "smartphone";
         int numberOfDays = 5;
-        double totalSales = 12153.41;
-        double salesByDay = totalSales/numberOfDays;
+        int quantity = 5;
+        double price =486.1364;
+        double salesByDay = quantity*price;
+        double totalSales = salesByDay*numberOfDays;
+
 
 
         System.out.printf(Locale.FRANCE,"Product No %d: %s,\n" +
@@ -21,8 +24,11 @@ public class SolutionHomeWork04 {
         prodNumber++;
         product = "laptop";
         numberOfDays = 7;
-        totalSales = 10486.85;
-        salesByDay =totalSales/numberOfDays;
+        quantity = 3;
+        price = 499.37381;
+        salesByDay =quantity*price;
+        totalSales = salesByDay*numberOfDays;
+
 
         System.out.printf(Locale.FRANCE,"Product No %d: %s,\n" +
                 "total sales for %d days is EUR %.2f,\n" +
